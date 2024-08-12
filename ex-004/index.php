@@ -28,6 +28,27 @@
 
     ?>
 
+    <?php 
+        $canal = "Curso em vídeo";
+        $ano = date('Y');
+        print <<< TESTE
+            Olá galera do $canal!
+            Tenham um ótimo $ano.
+        TESTE;
+    ?>
+
+    <?php 
+        $canal = "Curso em vídeo";
+        $ano = date('Y');
+        print <<< 'TESTE'
+            Olá galera do $canal!
+            Tenham um ótimo $ano.
+        TESTE;
+
+    
+    ?>
+
+
 </body>
 
 </html>
