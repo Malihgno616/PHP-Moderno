@@ -31,12 +31,12 @@
         //$vet = [6, 2, "Maria" ,2, false];
         //var_dump($vet);
 
-        class Pessoa {
-            private string $nome;
-        }
+        // class Pessoa {
+        //    private string $nome;
+        //}
         
-        $p = new Pessoa;
-        var_dump($p);
+        //$p = new Pessoa;
+        //var_dump($p);
     ?>
 
 </body>
