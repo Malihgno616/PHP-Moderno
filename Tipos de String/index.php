@@ -29,6 +29,7 @@
     ?>
 
     <?php 
+        //heredoc
         $canal = "Curso em vídeo";
         $ano = date('Y');
         print <<< TESTE
@@ -38,6 +39,7 @@
     ?>
 
     <?php 
+        //nowdoc
         $canal = "Curso em vídeo";
         $ano = date('Y');
         print <<< 'TESTE'
