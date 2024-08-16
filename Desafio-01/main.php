@@ -16,13 +16,13 @@
         <h1>Resultado Final</h1>
         <main>
             <?php 
-                $num = $_GET["numero"] ?? "Nenhum numero";
+                $num = $_GET["numero"];
                 $ante = $num -1;
                 $suc = $num +1;
                                
                 print "<p>O numero escolhido foi <strong>$num</strong></p>";
-                echo "<p>O seu antecessor é $ante</p>";
-                echo "<p>O seu sucessor é $suc</p>";       
+                echo "<p>O seu antecessor é <strong>$ante</strong></p>";
+                echo "<p>O seu sucessor é <strong>$suc</strong></p>";       
                                     
             ?>
 
