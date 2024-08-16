@@ -15,7 +15,8 @@
     <section>
         <h1>Resultado Final</h1>
         <main>
-            <?php 
+            <?php
+                //Pega o numero que nós digitamos  
                 $num = $_GET["numero"];
                 $ante = $num -1;
                 $suc = $num +1;
