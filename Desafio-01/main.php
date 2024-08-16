@@ -28,9 +28,7 @@
             ?>
 
         </main>
-        <button>
-            <a href="index.html">Voltar</a>
-        </button>
+        <a href="index.html">Voltar</a>
     </section>
 
 
