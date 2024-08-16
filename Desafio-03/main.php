@@ -13,7 +13,7 @@
         <h1>Conversor de Moedas v1.0</h1>
         <?php
             $real = $_GET["numero"];
-            $dolar = $real / 5.47;
+            $dolar = $real/"5.47";
             $dolar = number_format($dolar,2,".","");
         
             print "Os seus $real R$ vale $dolar U$";
