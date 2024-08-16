@@ -18,6 +18,7 @@
         
             print "Os seus $real R$ vale $dolar U$";
         ?>
+        <p><strong>Cotação fixa de 5.57U$</strong> informada diretamento no código.</p>
         <form action="index.html">
 
             <a href="index.html">
