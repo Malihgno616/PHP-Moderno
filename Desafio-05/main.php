@@ -26,7 +26,7 @@ list($parteinteira, $partedecimal) = separateNumbers($numero);
     <div>
       <p>Analisando o número <?php echo $numero; ?> informado pelo usuário: </p>
       <ul>
-        <li>A parte inteira do numero é <strong><?php echo $parteinteira; ?></strong></li>
+        <li>A parte inteira do numero é <strong><?php echo number_format($parteinteira, 0, "", ","); ?></strong></li>
         <li>A parte decimal do número é <strong><?php echo number_format($partedecimal, 3); ?></strong></li>
       </ul>
     </div>
