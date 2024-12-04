@@ -29,17 +29,11 @@
         } else {
             echo "Por favor, insira um valor.";
         }
-            
-        
+                 
            
         ?>
         <p><strong>Cotação fixa de 5.57U$</strong> informada diretamento no código.</p>
-        <form action="index.html">
-
-            <a href="index.html">
-                <input type="submit" value="Voltar">
-            </a>
-        </form>
+        <button onclick="javascript:history.go(-1)">Voltar</button>
     </section>
 
 </body>
