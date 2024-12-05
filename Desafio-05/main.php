@@ -3,8 +3,8 @@
 $numero = $_POST['numero'];
 
 function separateNumbers($num) {
-  $parteinteira = (int) $num;
-  $partedecimal = $num - $parteinteira;
+  $parteinteira = (int) $num; //casting para inteiro
+  $partedecimal = $num - $parteinteira; // subtrai o número real com o inteiro, sendo assim, sobrando apenas o número decimal.
   return array($parteinteira, $partedecimal);
 }
 
@@ -13,7 +13,7 @@ list($parteinteira, $partedecimal) = separateNumbers($numero);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
